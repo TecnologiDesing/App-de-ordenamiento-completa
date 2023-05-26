@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,5 +17,35 @@ namespace app_de_ordenamiento
         {
             InitializeComponent();
         }
+
+        private void BtnOrdenar_Click(object sender, EventArgs e)
+        {
+
+            this.Cursor = Cursors.WaitCursor;
+
+            btnOrdenar.Enabled = false;
+            txtNumero.Enabled = false;
+            btnAgregar.Enabled = false;
+
+            Stopwatch inicio = new Stopwatch();
+            Stopwatch final = new Stopwatch();
+            inicio.Start();
+
+
+            BubbleSort(ref Arreglos_De_Numeros, ref Arreglos);
+
+            final.Stop();
+            TimeSpan tiempo = inicio.Elapsed;
+
+            MessageBox.Show($"El ordenamiento tardó {tiempo.TotalSeconds} segundos");
+
+            this.Cursor = Cursors.Default;
+
+            btnOrdenar.Enabled = true;
+            txtNumero.Enabled = true;
+            btnAgregar.Enabled = true;
+
+        }
+
     }
 }
