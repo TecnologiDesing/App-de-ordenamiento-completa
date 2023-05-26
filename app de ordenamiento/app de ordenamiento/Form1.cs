@@ -44,6 +44,8 @@ namespace app_de_ordenamiento
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
 
+
+
         }
 
         private void BtnOrdenar_Click(object sender, EventArgs e)
