@@ -42,7 +42,7 @@ namespace app_de_ordenamiento
 
         }
 
-<<<<<<< HEAD
+
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
@@ -66,41 +66,10 @@ namespace app_de_ordenamiento
 
 
                 MessageBox.Show("Solo se admiten numeros enteros");
-=======
-        private void tabPage1_Paint(object sender, PaintEventArgs e)
-        {
 
-
-            if (estado)
-            {
-
-
-                Point xy = new Point(50, 70);
-
-                try
-                {
-
-                    Dibujar_Arreglo(ref Arreglos, xy, ref tabPage1);
-
-                }
-
-                catch
-                {
-                }
-
-                estado = false;
->>>>>>> tapepage_paint
-
+       
 
             }
-
-<<<<<<< HEAD
-            estado = true;
-            tabPage1.Refresh();
-
-            //>>>>>>> BtnAgregar final
-
-        }
 
         private void BtnOrdenar_Click(object sender, EventArgs e)
         {
@@ -135,19 +104,53 @@ namespace app_de_ordenamiento
 
         }
 
+        private void tabPage1_Paint(object sender, PaintEventArgs e)
+        {
+            //>>>>>>> tapepage_paint inicio
+
+            if (estado)
+            {
+
+
+                Point xy = new Point(50, 70);
+
+                try
+                {
+
+                    Dibujar_Arreglo(ref Arreglos, xy, ref tabPage1);
+
+                }
+
+                catch
+                {
+                }
+
+                estado = false;
+              
+
+
+            }
+
+
+            estado = true;
+            tabPage1.Refresh();
+
+              //>>>>>>> tapepage_paint final
+                
+        }
+
+
+
+
+
+
+
+
 
             
 
-        
-
-
-        
-
-
-=======
-
         }
 
->>>>>>> tapepage_paint
+
     }
 }
