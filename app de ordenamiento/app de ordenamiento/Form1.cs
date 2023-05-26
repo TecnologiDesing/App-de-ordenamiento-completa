@@ -81,9 +81,9 @@ namespace app_de_ordenamiento
 
             this.Cursor = Cursors.WaitCursor;
 
-            btnOrdenar.Enabled = false;
+            BtnOrdenar.Enabled = false;
             txtNumero.Enabled = false;
-            btnAgregar.Enabled = false;
+            BtnAgregar.Enabled = false;
 
             Stopwatch inicio = new Stopwatch();
             Stopwatch final = new Stopwatch();
@@ -99,9 +99,9 @@ namespace app_de_ordenamiento
 
             this.Cursor = Cursors.Default;
 
-            btnOrdenar.Enabled = true;
+            BtnOrdenar.Enabled = true;
             txtNumero.Enabled = true;
-            btnAgregar.Enabled = true;
+            BtnAgregar.Enabled = true;
 
             //>>>>>>> BtnOrdenar final
 
@@ -223,5 +223,6 @@ namespace app_de_ordenamiento
 
 
 
+   
     }
 }
