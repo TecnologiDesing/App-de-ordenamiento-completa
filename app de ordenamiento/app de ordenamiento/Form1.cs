@@ -12,6 +12,15 @@ namespace app_de_ordenamiento
 {
     public partial class Form1 : Form
     {
+
+        bool estado = false;
+
+        int[] Arreglos_De_Numeros;
+
+        Numeros Datos = new Numeros();
+
+        Button[] Arreglos;
+
         public Form1()
         {
             InitializeComponent();
