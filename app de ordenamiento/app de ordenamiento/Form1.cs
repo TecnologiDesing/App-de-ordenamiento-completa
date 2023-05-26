@@ -15,6 +15,9 @@ namespace app_de_ordenamiento
         public Form1()
         {
             InitializeComponent();
+            tabPage1.Paint += tabPage1_Paint;
+            Arreglos_De_Numeros = new int[0];
+            Ordenamiento_insercion(Arreglos_De_Numeros);
         }
     }
 }
