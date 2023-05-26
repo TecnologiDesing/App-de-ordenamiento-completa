@@ -44,6 +44,7 @@ namespace app_de_ordenamiento
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
 
+<<<<<<< HEAD
 
 
         }
@@ -53,5 +54,32 @@ namespace app_de_ordenamiento
 
         }
 
+=======
+            try
+            {
+
+
+                int numero = Convert.ToInt32(txtNumero.Text);
+                Datos.Insertar_Dato(numero);
+                Arreglos_De_Numeros = Datos.Obtener_Arreglo();
+
+                Arreglos = Datos.Arreglo_Botones();
+
+
+            }
+            catch
+            {
+
+
+                MessageBox.Show("Solo se admiten numeros enteros");
+
+
+            }
+
+            estado = true;
+            tabPage1.Refresh();
+
+        }
+>>>>>>> BtnAgregar
     }
 }
