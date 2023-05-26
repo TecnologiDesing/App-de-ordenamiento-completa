@@ -16,5 +16,35 @@ namespace app_de_ordenamiento
         {
             InitializeComponent();
         }
+
+        private void tabPage1_Paint(object sender, PaintEventArgs e)
+        {
+
+
+            if (estado)
+            {
+
+
+                Point xy = new Point(50, 70);
+
+                try
+                {
+
+                    Dibujar_Arreglo(ref Arreglos, xy, ref tabPage1);
+
+                }
+
+                catch
+                {
+                }
+
+                estado = false;
+
+
+            }
+
+
+        }
+
     }
 }
