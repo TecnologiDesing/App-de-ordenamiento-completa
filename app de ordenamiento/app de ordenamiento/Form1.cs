@@ -42,7 +42,7 @@ namespace app_de_ordenamiento
 
         }
 
-<<<<<<< HEAD
+
 
 
         private void BtnAgregar_Click(object sender, EventArgs e)
@@ -71,6 +71,8 @@ namespace app_de_ordenamiento
        
 
             }
+
+        }
 
         private void BtnOrdenar_Click(object sender, EventArgs e)
         {
@@ -127,8 +129,13 @@ namespace app_de_ordenamiento
                 }
 
                 estado = false;
-              
-=======
+
+
+              //>>>>>>> tapepage_paint final
+            }
+
+        }
+
         class Numeros
         {
 
@@ -176,34 +183,11 @@ namespace app_de_ordenamiento
 
 
                 return Arreglo;
->>>>>>> Clase_numeros
 
 
             }
 
 
-<<<<<<< HEAD
-            estado = true;
-            tabPage1.Refresh();
-
-              //>>>>>>> tapepage_paint final
-                
-        }
-
-
-
-
-
-
-
-
-
-            
-
-        }
-
-
-=======
 
             public void Insertar_Dato(int Dato)
             {
@@ -237,6 +221,7 @@ namespace app_de_ordenamiento
 
         }
 
->>>>>>> Clase_numeros
+
+
     }
 }
