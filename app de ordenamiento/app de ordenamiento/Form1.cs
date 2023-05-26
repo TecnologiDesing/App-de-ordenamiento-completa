@@ -138,7 +138,7 @@ namespace app_de_ordenamiento
 
         class Numeros
         {
-
+            //>>>>>>> Clase_numeros inicio
 
             private int Longitud;
             private int[] Arreglo = new int[1];
@@ -218,11 +218,12 @@ namespace app_de_ordenamiento
 
             }
 
+            //>>>>>>> Clase_numeros final
 
         }
 
 
 
-   
+
     }
 }
