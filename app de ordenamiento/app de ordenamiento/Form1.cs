@@ -43,7 +43,7 @@ namespace app_de_ordenamiento
 
         }
 
-<<<<<<< HEAD
+
 
 
 
@@ -137,32 +137,13 @@ namespace app_de_ordenamiento
 
 
               //>>>>>>> tapepage_paint final
-=======
-        static void Ordenamiento_insercion(int[] array)
-        {
 
-            for (int i = 0; i < array.Length; i++)
-            {
-
-                int temp = array[i];
-                int j = i - 1;
-
-                while ((j >= 0) && (array[j] > temp))
-                {
-
-                    array[j + 1] = array[j];
-                    j--;
-
-                }
-
-                array[j + 1] = temp;
-
->>>>>>> Ordenamiento_insercion
+        
             }
 
         }
 
-<<<<<<< HEAD
+
         class Numeros
         {
             //>>>>>>> Clase_numeros inicio
@@ -375,9 +356,29 @@ namespace app_de_ordenamiento
 
         }
 
-        
+        static void Ordenamiento_insercion(int[] array)
+        {
 
-=======
->>>>>>> Ordenamiento_insercion
+            for (int i = 0; i < array.Length; i++)
+            {
+
+                int temp = array[i];
+                int j = i - 1;
+
+                while ((j >= 0) && (array[j] > temp))
+                {
+
+                    array[j + 1] = array[j];
+                    j--;
+
+                }
+
+                array[j + 1] = temp;
+
+            }
+
+        }
+
+
     }
 }
