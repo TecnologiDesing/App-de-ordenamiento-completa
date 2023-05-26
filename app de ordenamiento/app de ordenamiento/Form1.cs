@@ -16,5 +16,16 @@ namespace app_de_ordenamiento
         {
             InitializeComponent();
         }
+
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnOrdenar_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
