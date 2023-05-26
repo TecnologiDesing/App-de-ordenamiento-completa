@@ -77,6 +77,11 @@ namespace app_de_ordenamiento
 
             }
 
+            estado = true;
+            tabPage1.Refresh();
+
+            //<<<<<<< BtnAgregar final
+
         }
 
         private void BtnOrdenar_Click(object sender, EventArgs e)
