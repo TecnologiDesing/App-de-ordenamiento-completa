@@ -44,17 +44,8 @@ namespace app_de_ordenamiento
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
 
-<<<<<<< HEAD
+            //<<<<<<< BtnAgregar inicio
 
-
-        }
-
-        private void BtnOrdenar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-=======
             try
             {
 
@@ -79,7 +70,19 @@ namespace app_de_ordenamiento
             estado = true;
             tabPage1.Refresh();
 
+            //>>>>>>> BtnAgregar final
+
         }
->>>>>>> BtnAgregar
+
+        private void BtnOrdenar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+            
+
+        
+
     }
 }
