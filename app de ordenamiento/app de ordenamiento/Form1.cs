@@ -30,6 +30,7 @@ namespace app_de_ordenamiento
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void BtnAgregar_Click(object sender, EventArgs e)
