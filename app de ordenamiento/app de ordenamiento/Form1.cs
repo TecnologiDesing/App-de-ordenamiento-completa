@@ -42,7 +42,7 @@ namespace app_de_ordenamiento
 
         }
 
-<<<<<<< HEAD
+
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
 
@@ -79,16 +79,7 @@ namespace app_de_ordenamiento
         private void BtnOrdenar_Click(object sender, EventArgs e)
         {
 
-        }
-
-
-            
-
-        
-
-=======
-        private void BtnOrdenar_Click(object sender, EventArgs e)
-        {
+            ///>>>>>>> BtnOrdenar inicio
 
             this.Cursor = Cursors.WaitCursor;
 
@@ -114,8 +105,18 @@ namespace app_de_ordenamiento
             txtNumero.Enabled = true;
             btnAgregar.Enabled = true;
 
+            //>>>>>>> BtnOrdenar final
+
         }
 
->>>>>>> BtnOrdenar
+
+            
+
+        
+
+
+        
+
+
     }
 }
