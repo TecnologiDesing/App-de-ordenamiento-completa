@@ -42,6 +42,7 @@ namespace app_de_ordenamiento
 
         }
 
+<<<<<<< HEAD
 
 
 
@@ -262,5 +263,25 @@ namespace app_de_ordenamiento
 
         
 
+=======
+        public void Dibujar_Arreglo(ref Button[] Arreglo, Point xy, ref TabPage t)
+        {
+
+
+            for (int i = 0; i < Arreglo.Length; i++)
+            {
+
+
+                Arreglo[i].Location = xy;
+                t.Controls.Add(Arreglos[i]);
+                xy += new Size(70, 0);
+
+
+            }
+
+
+        }
+
+>>>>>>> Dibujar_Arreglo
     }
 }
