@@ -42,7 +42,7 @@ namespace app_de_ordenamiento
 
         }
 
-<<<<<<< HEAD
+
 
 
 
@@ -261,5 +261,6 @@ namespace app_de_ordenamiento
         }
 
         
+
     }
 }
