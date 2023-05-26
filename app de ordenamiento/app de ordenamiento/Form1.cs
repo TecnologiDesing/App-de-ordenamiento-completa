@@ -43,7 +43,7 @@ namespace app_de_ordenamiento
 
         }
 
-<<<<<<< HEAD
+
 
 
 
@@ -288,9 +288,11 @@ namespace app_de_ordenamiento
 
 
        
-=======
+
         public void Intercambio(ref Button[] boton, int a, int b)
         {
+
+            //>>>>>>> Intercambio inicio
 
             string temp = boton[a].Text;
 
@@ -346,8 +348,10 @@ namespace app_de_ordenamiento
             estado = true;
             tabPage1.Refresh();
 
+            //>>>>>>> Intercambio final
+
         }
 
->>>>>>> Intercambio
+        
     }
 }
