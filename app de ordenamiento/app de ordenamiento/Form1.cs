@@ -359,6 +359,8 @@ namespace app_de_ordenamiento
         static void Ordenamiento_insercion(int[] array)
         {
 
+            //>>>>>>> Ordenamiento_insercion
+
             for (int i = 0; i < array.Length; i++)
             {
 
@@ -376,6 +378,8 @@ namespace app_de_ordenamiento
                 array[j + 1] = temp;
 
             }
+
+            //>>>>>>> Ordenamiento_insercion
 
         }
 
